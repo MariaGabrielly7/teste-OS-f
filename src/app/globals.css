@@ -31,3 +31,12 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'Capture it';
+  src: url('/fonts/Capture_it.ttf') format('truetype');
+}
+
+h2 {
+  font-family: 'Capture it', sans-serif;
+}

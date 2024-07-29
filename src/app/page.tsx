@@ -1,12 +1,15 @@
-import Header from "@/components/Header/Header";
+import Header from "@/components/MainUSA/MainUSA";
 import Footer from "@/components/Footer/Footer";
-import Image from "next/image";
 import Section from "@/components/Section/Section";
+import MainSection from "@/components/MainSection/MainSection";
+import FormSection from "@/components/Form/Form";
 
 export default function Home() {
   return (
-    <><Header /><>
+    <><>
+    <Header />
     <main>
+      <MainSection/>
       <Section
         imageSrc="images/Army-emblem.png"
         title="The U.S. Army: A Path to Excellence"
@@ -58,6 +61,7 @@ export default function Home() {
         url="https://www.spaceforce.com/"
         reverse={true}
       />
+      <FormSection/>
     </main>
     <Footer /></></>
   );
